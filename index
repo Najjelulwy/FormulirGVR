@@ -18,20 +18,7 @@
             overflow: hidden;
         }
 
-        .marquee {
-            position: absolute;
-            white-space: nowrap;
-            animation: marquee 10s linear infinite;
-            color: white;
-            font-size: 12px;
-            font-family: Arial, sans-serif;
-        }
-
-        @keyframes marquee {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(200%); }
-        }
-  
+       
     </style>
 </head>
 <body>
